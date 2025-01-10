@@ -3,6 +3,12 @@
 
 * {
   margin: none;
+  /* background-color: #F1F1F3; */
+}
+
+/* Shared */
+section {
+  margin: 0px 80px 76px 80px;
 }
 
 /* Nav */
@@ -46,14 +52,12 @@ nav {
 
 .banner-container {
   display: flex;
-  width: 1228px;
-  height: 537px;
   border-radius: 24px;
   background: rgb(198, 228, 214);
   justify-content: center;
   align-items: center;
   padding: 77px 96px 77px 96px;
-  gap: 64px;
+  gap: 62px;
 }
 
 .banner-content .banner-subtitle {
@@ -64,6 +68,7 @@ nav {
   line-height: 28px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 14px;
 }
 
 .banner-content .banner-title {
@@ -74,6 +79,8 @@ nav {
   line-height: 64px;
   letter-spacing: 0%;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 23px;
 }
 
 .banner-content .banner-btn {
@@ -88,4 +95,59 @@ nav {
   text-align: center;
   border-radius: 8px;
   background: rgb(0, 106, 80);
+  border: none;
+}
+
+/* Pillar */
+.pillar-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.pillar-card-container {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 24; */
+}
+
+.pillar-card {
+  width: 290px;
+  height: 234px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 23px;
+}
+
+.pillar-img {
+  margin-bottom: 24px;
+}
+
+.pillar-card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.pillar-card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
 }
