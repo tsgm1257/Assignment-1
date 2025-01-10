@@ -96,6 +96,11 @@ nav {
   border-radius: 8px;
 }
 
+.nav-btn:hover {
+    color: white;
+  background: rgb(0, 106, 80);
+}
+
 /* Banner */
 #banner {
   display: flex;
@@ -148,6 +153,10 @@ nav {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   border: none;
+}
+
+.banner-btn:hover {
+  background: red;
 }
 
 /* Pillar */
@@ -214,12 +223,24 @@ nav {
   background: rgb(84, 144, 245);
 }
 
+.btn-1:hover {
+  background: rgb(2, 62, 165);
+}
+
 .btn-2 {
   background: rgb(9, 161, 92);
 }
 
+.btn-2:hover {
+  background: rgb(3, 84, 47);
+}
+
 .btn-3 {
   background: rgb(255, 194, 57);
+}
+
+.btn-3:hover {
+  background: rgb(215, 152, 5);
 }
 
 /* Quote */
@@ -291,6 +312,10 @@ nav {
   background: rgb(0, 106, 80);
 }
 
+.news-btn:hover {
+  background: rgb(198, 228, 214);
+}
+
 .news-title {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
@@ -344,6 +369,18 @@ nav {
   padding: 40px;
 }
 
+.amount-btn:hover {
+  background: rgb(198, 228, 214);
+}
+
+.green-btn {
+  background: rgb(198, 228, 214);
+}
+
+.green-btn:hover {
+  background: tomato;
+}
+
 .amount-input {
   width: 990px;
   height: 61px;
@@ -375,6 +412,10 @@ nav {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   padding: 17px 34px 17px 34px;
+}
+
+.donate-btn:hover {
+  background: rgb(198, 228, 214);
 }
 
 /* Subscribe */
@@ -423,6 +464,10 @@ nav {
   border: none;
   border-radius: 0px 8px 8px 0px;
   background: rgb(0, 106, 80);
+}
+
+.subscribe-btn:hover {
+  background: red;
 }
 
 .spam {
