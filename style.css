@@ -8,7 +8,33 @@
 
 /* Shared */
 section {
-  margin: 0px 80px 76px 80px;
+  margin: 0px 90px 76px 90px;
+}
+
+.img {
+  margin-bottom: 24px;
+}
+
+.card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 /* Nav */
@@ -126,23 +152,19 @@ nav {
   padding: 23px;
 }
 
-.pillar-img {
-  margin-bottom: 24px;
-}
-
-.pillar-card-title {
-  color: rgba(14, 14, 14, 0.8);
+/* Vision */
+.vision-title {
+  color: rgb(14, 14, 14);
   font-family: Fira Sans;
-  font-size: 19px;
+  font-size: 38px;
   font-weight: 700;
-  line-height: 23px;
+  line-height: 46px;
   letter-spacing: 0%;
   text-align: left;
-  margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 23px;
 }
 
-.pillar-card-description {
+.vision-subtitle {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
   font-size: 15px;
@@ -150,4 +172,58 @@ nav {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.vision-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vision-card {
+  width: 400px;
+  height: 312px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 31px;
+  align-content: center;
+}
+
+.card-1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.card-2 {
+  background: rgb(198, 228, 214);
+}
+
+.card-3 {
+  background: rgb(247, 235, 207);
+}
+
+.vision-btn {
+  width: 117px;
+  height: 39px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-1 {
+  background: rgb(84, 144, 245);
+}
+
+.btn-2 {
+  background: rgb(9, 161, 92);
+}
+
+.btn-3 {
+  background: rgb(255, 194, 57);
 }
