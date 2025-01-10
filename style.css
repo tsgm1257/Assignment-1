@@ -434,3 +434,35 @@ nav {
   letter-spacing: 0%;
   text-align: center;
 }
+
+/* Footer */
+footer {
+  background-color: white;
+  padding: 50px 160px 50px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  margin-bottom: 0;
+}
+
+hr {
+  width: 1122px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin: 32px;
+}
+
+.sm-icon {
+  width: 120.55px;
+  height: 24px;
+  display: flex;
+  justify-content: space-around;
+}
